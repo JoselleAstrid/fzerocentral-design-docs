@@ -183,5 +183,7 @@ def get_chart_records_for_ladder(chart, ladder):
 
 Example use: A User's record history for a particular Chart.
 
+```python
 def get_chart_records_for_user(chart, user):
     return Records.objects.filter(chart=chart, player=user)
+```
